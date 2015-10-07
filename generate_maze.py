@@ -18,7 +18,7 @@ def create_dfs(m):
             visited_cells += 1
         else:
             current_cell = backtrack.pop()
-        #m.refresh_maze_view()
+        m.refresh_maze_view()
     m.state = "solve"
 
 
